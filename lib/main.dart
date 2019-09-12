@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-// dipake nanti
-// import 'package:haornas_apps/launcher/launcher_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -240,7 +238,6 @@ class DetailCabangOlahraga extends StatelessWidget {
             ),
           ),
           new BagianNama(nama: nama),
-          new BagianIcon(),
           new BagianKeterangan(deskripsi: deskripsi),
         ],
       ),
@@ -268,36 +265,7 @@ class BagianNama extends StatelessWidget {
                 ),
               ],
             ),
-          ),
-          new Row(
-            children: <Widget>[
-              new Icon(
-                Icons.star,
-                size: 30.0,
-                color: Colors.blue,
-              ),
-              new Text(
-                "12",
-                style: new TextStyle(fontSize: 18.0),
-              ),
-            ],
-          )
-        ],
-      ),
-    );
-  }
-}
-
-class BagianIcon extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.all(10),
-      child: new Row(
-        children: <Widget>[
-          new IconTeks(iconData: Icons.call, teks: "Call"),
-          new IconTeks(iconData: Icons.message, teks: "Message"),
-          new IconTeks(iconData: Icons.photo, teks: "Photo"),
+          ),          
         ],
       ),
     );
