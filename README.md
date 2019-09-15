@@ -7,7 +7,14 @@ Aplikasi Flutter tentang 10 Cabang Olahraga Baru di Asean Games 2018 yang bertem
 ## Built With
 - [Flutter](https://flutter.dev)
 - [Material Component Widgets](https://flutter.dev/docs/development/ui/widgets/material)
+- [StatelessWidget](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
+- [StatefulWidget](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
+- [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)
+- [Card](https://api.flutter.dev/flutter/material/Card-class.html)
 - [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html)
+- [GridView](https://api.flutter.dev/flutter/widgets/GridView-class.html)
+- [InkWell](https://api.flutter.dev/flutter/material/InkWell-class.html)
+- [MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
 
 
 ## Created By
